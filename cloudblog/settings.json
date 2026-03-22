@@ -31,10 +31,10 @@
   },
   "templateVariables": {},
   "templates": {
-    "home": "imoo",
-    "post": "imoo",
+    "home": "classic",
+    "post": "classic",
     "tag": "grid",
-    "page": "imoo"
+    "page": "classic"
   },
   "templateContent": {
     "homeHeroHtml": "",
