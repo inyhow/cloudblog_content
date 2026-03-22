@@ -31,9 +31,9 @@
   },
   "templateVariables": {},
   "templates": {
-    "home": "classic",
+    "home": "minimal",
     "post": "classic",
-    "tag": "classic",
+    "tag": "grid",
     "page": "classic"
   },
   "templateContent": {
