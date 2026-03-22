@@ -1,0 +1,45 @@
+{
+  "locale": "zh-CN",
+  "title": "Cloud Blog",
+  "description": "Blog powered by Astro + Cloudflare Pages",
+  "categories": [],
+  "menu": [
+    {
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "Blog",
+      "href": "/blog"
+    }
+  ],
+  "footer": "© Cloud Blog",
+  "analyticsJs": "",
+  "seo": {
+    "homeTitle": "Cloud Blog",
+    "homeDescription": "Blog powered by Astro + Cloudflare Pages",
+    "googleAnalyticsId": "",
+    "googleSiteVerification": "",
+    "googleAdsenseClient": ""
+  },
+  "adSlots": {
+    "homeTop": "",
+    "listTop": "",
+    "postTop": "",
+    "postBottom": "",
+    "postSidebar": ""
+  },
+  "templateVariables": {},
+  "templates": {
+    "home": "classic",
+    "post": "classic",
+    "tag": "classic",
+    "page": "classic"
+  },
+  "templateContent": {
+    "homeHeroHtml": "",
+    "postHeaderHtml": "",
+    "tagHeaderHtml": "",
+    "pageHeaderHtml": ""
+  }
+}
