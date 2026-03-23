@@ -23,10 +23,10 @@
   },
   "templateVariables": {},
   "templates": {
-    "home": "imoo",
-    "post": "imoo",
-    "tag": "imoo",
-    "page": "imoo"
+    "home": "classic",
+    "post": "classic",
+    "tag": "classic",
+    "page": "classic"
   },
   "templateContent": {
     "homeHeroHtml": "",
