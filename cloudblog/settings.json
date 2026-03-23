@@ -2,7 +2,6 @@
   "locale": "zh-CN",
   "title": "Cloud Blog",
   "description": "Blog powered by Astro + Cloudflare Pages",
-  "categories": [],
   "menu": [
     {
       "label": "Home",
@@ -22,19 +21,12 @@
     "googleSiteVerification": "",
     "googleAdsenseClient": ""
   },
-  "adSlots": {
-    "homeTop": "",
-    "listTop": "",
-    "postTop": "",
-    "postBottom": "",
-    "postSidebar": ""
-  },
   "templateVariables": {},
   "templates": {
-    "home": "classic",
-    "post": "classic",
-    "tag": "grid",
-    "page": "classic"
+    "home": "imoo",
+    "post": "imoo",
+    "tag": "imoo",
+    "page": "imoo"
   },
   "templateContent": {
     "homeHeroHtml": "",
