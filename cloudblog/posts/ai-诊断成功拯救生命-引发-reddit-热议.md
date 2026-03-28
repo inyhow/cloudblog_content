@@ -8,8 +8,8 @@ status: published
 reviewNote: ""
 pinned: false
 coverImage: ""
-pubDate: 2026-03-28T00:49:15.843Z
-updatedDate: 2026-03-28T00:49:15.843Z
+pubDate: 2026-03-28T00:51:44.069Z
+updatedDate: 2026-03-28T00:51:44.069Z
 affiliate: false
 template: 
 customData: {}
@@ -25,7 +25,7 @@ editorMode: wysiwyg
 1. **识别关键线索：** 强调了“躺下即触发”的体位性特征。
 2. **提取研究数据：** 指出 40-57% 的透析患者患有未确诊的**睡眠呼吸暂停**。
 3. **分析报告：** 阅读了脑部 MRI 报告，并指出了其他医生忽略的相关发现。
-4. **风险评估：** 通过询问发现患者有 25 年的剧烈打鼾史，并计算出其 [STOP-BANG 评分](https://www.reddit.com/user/the_kuka/)极高（6-7/8）。
+4. **风险评估：** 通过询问发现患者有 25 年的剧烈打鼾史，并计算出其 [STOP-BANG 评分](https://www.msdmanuals.cn/professional/multimedia/table/stop-bang-risk-score-for-obstructive-sleep-apnea)极高（6-7/8）。
 5. **行动计划：** 为肺科医生编写了咨询简报，并将护理计划翻译成古吉拉特语（患者母语）。
 
 **结果：** 睡眠检测显示情况惊人：患者每晚呼吸停止 119 次，血氧降至 78% 的危险水平。在使用 **CPAP（呼吸机）** 治疗后，**困扰 25 年的头痛消失了**。
