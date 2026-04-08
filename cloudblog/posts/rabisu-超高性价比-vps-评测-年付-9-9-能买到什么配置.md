@@ -1,5 +1,5 @@
 ---
-title: "Rabisu 超高性价比 VPS 评测：年付 \$9.9 能买到什么配置？"
+title: "Rabisu 超高性价比 VPS 评测：年付 $9.9 能买到什么配置？"
 description: ""
 category: ""
 tags:
@@ -10,8 +10,8 @@ status: published
 reviewNote: ""
 pinned: false
 coverImage: ""
-pubDate: 2026-04-08T09:16:18.595Z
-updatedDate: 2026-04-08T09:16:18.595Z
+pubDate: 2026-04-08T09:16:50.171Z
+updatedDate: 2026-04-08T09:16:50.171Z
 affiliate: false
 template: 
 customData: {}
