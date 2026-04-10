@@ -1,7 +1,7 @@
 {
   "locale": "zh-CN",
   "title": "Cloud Blog",
-  "description": "Blog powered by Astro + Cloudflare Pages",
+  "description": "powered by Cloudflare Pages",
   "menu": [
     {
       "label": "Home",
