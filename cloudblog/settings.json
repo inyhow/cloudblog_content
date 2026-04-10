@@ -16,7 +16,7 @@
   "analyticsJs": "",
   "seo": {
     "homeTitle": "Cloud Blog",
-    "homeDescription": "Blog powered by Astro + Cloudflare Pages",
+    "homeDescription": "powered by Astro + Cloudflare Pages",
     "googleAnalyticsId": "",
     "googleSiteVerification": "",
     "googleAdsenseClient": ""
