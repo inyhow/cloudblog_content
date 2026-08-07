@@ -1,5 +1,5 @@
 ---
-title: "# 宝塔面板 phpMyAdmin 密码正确却无法登录？一文定位根因并修复"
+title: "宝塔phpMyAdmin 密码正确却无法登录？定位根因并修复"
 description: ""
 category: ""
 tags:
@@ -8,8 +8,8 @@ status: published
 reviewNote: ""
 pinned: false
 coverImage: "https://cdn.jsdelivr.net/gh/inyhow/cloudblog_content@main/cloudblog/images/1786063683638.jpg"
-pubDate: 2026-08-07T00:48:10.689Z
-updatedDate: 2026-08-07T00:48:10.689Z
+pubDate: 2026-08-07T00:49:48.543Z
+updatedDate: 2026-08-07T00:49:48.543Z
 affiliate: false
 template: 
 customData: {}
@@ -29,10 +29,10 @@ editorMode: wysiwyg
 
 这个矛盾直接指向问题不在 MySQL/MariaDB 本身，而在于**连接方式**的差异：
 
-| 连接方式                    | 使用方                | 状态   |
-| ----------------------- | ------------------ | ---- |
+| 连接方式                | 使用方                | 状态    |
+| ----------------------- | --------------------- | ------- |
 | TCP (127.0.0.1:3306)    | WordPress 等 PHP 应用 | ✅ 正常 |
-| Unix Socket (localhost) | phpMyAdmin、宝塔面板    | ❌ 失败 |
+| Unix Socket (localhost) | phpMyAdmin、宝塔面板  | ❌ 失败 |
 
 ## 排查思路
 
@@ -192,11 +192,10 @@ php -r "echo session_save_path() . PHP_EOL;"
 
 ## 总结
 
-| 问题层级 | 现象                  | 根因                             | 解决                                 |
-| ---- | ------------------- | ------------------------------ | ---------------------------------- |
-| 表层   | phpMyAdmin 密码正确无法登录 | socket 连接失败                    | 改 host 为 127.0.0.1                 |
-| 中层   | 宝塔面板数据库功能异常         | systemd 服务状态 failed            | reset-failed + 重启                  |
-| 根层   | socket 反复丢失         | systemd-tmpfiles-clean 清理 /tmp | 添加 /etc/tmpfiles.d/mysql.conf 排除规则 |
+| 问题层级 | 现象                        | 根因                             | 解决                                     |
+| -------- | --------------------------- | -------------------------------- | ---------------------------------------- |
+| 表层     | phpMyAdmin 密码正确无法登录 | socket 连接失败                  | 改 host 为 127.0.0.1                     |
+| 中层     | 宝塔面板数据库功能异常      | systemd 服务状态 failed          | reset-failed + 重启                      |
+| 根层     | socket 反复丢失             | systemd-tmpfiles-clean 清理 /tmp | 添加 /etc/tmpfiles.d/mysql.conf 排除规则 |
 
 **核心原则：看到"密码正确但无法登录"，先区分 TCP 和 socket 两种连接路径，定位就会快很多。**
-
