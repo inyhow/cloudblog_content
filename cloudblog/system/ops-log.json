@@ -1,5 +1,10 @@
 [
   {
+    "at": "2026-08-07T00:49:49.255Z",
+    "action": "post.update",
+    "target": "宝塔-phpmyadmin-密码正确无法登录"
+  },
+  {
     "at": "2026-08-07T00:48:11.401Z",
     "action": "post.create",
     "target": "宝塔-phpmyadmin-密码正确无法登录"
