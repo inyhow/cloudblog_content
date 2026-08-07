@@ -7,9 +7,9 @@ tags:
 status: published
 reviewNote: ""
 pinned: false
-coverImage: "https://cdn.jsdelivr.net/gh/inyhow/cloudblog_content@main/cloudblog/images/1786063683638.jpg"
-pubDate: 2026-08-07T00:49:48.543Z
-updatedDate: 2026-08-07T00:49:48.543Z
+coverImage: "https://raw.githubusercontent.com/inyhow/cloudblog_content/refs/heads/master/cloudblog/images/1786063683638.jpg"
+pubDate: 2026-08-07T00:51:37.155Z
+updatedDate: 2026-08-07T00:51:37.155Z
 affiliate: false
 template: 
 customData: {}
